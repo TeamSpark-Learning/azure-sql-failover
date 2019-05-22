@@ -39,7 +39,7 @@ namespace DemoApp
                     new Thread(() => { new DeleteData(Configs.Server02, mutex, 3, 5, timeout).Start(); }).Start();
                     new Thread(() => { new DeleteData(Configs.ServerPrimary, mutex, 3, 10, timeout).Start(); }).Start();
                     new Thread(() => { new DeleteData(Configs.ServerSecondary, mutex, 3, 15, timeout).Start(); }).Start();
-                    new Thread(() => { new DeleteData(Configs.Server02, mutex, 3, 20, timeout).Start(); }).Start();
+                    new Thread(() => { new DeleteData(Configs.Server03, mutex, 3, 20, timeout).Start(); }).Start();
                     break;
             }
         }
